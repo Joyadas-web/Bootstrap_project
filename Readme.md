@@ -3,5 +3,5 @@ it's  bootstrap website
 
 # html
 # css
-live link:https://github.com/Joyadas-web/Bootstrap_project
+live link: https://joyadas-web.github.io/Bootstrap_project/
 
