@@ -267,6 +267,7 @@
 .picture-icon {
     width: 20px;
     height: 10px;
+   
 }
 
 .accordion {
@@ -316,9 +317,14 @@
     /* margin-left: 200px; */
     margin: 0 auto;
 }
+.slider-img2{
+    margin-left: -10px;
+}
 
-
-
+.pic-icon{
+    margin-left: -40px;
+    margin-top: 10px;
+}
 @media only screen and (max-width:600px) {
 
     .typograpy2 {
