@@ -97,7 +97,7 @@
 .span-1 h3 {
     margin: 10px;
     font-size: 24px;
-   text-align: center;
+    text-align: center;
 }
 
 .span-1 p {
@@ -364,6 +364,19 @@
         padding: 20px;
     }
 
+    .content h1 {
+        width: 300px;
+        font-size: 35px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+        .span-1 h3 {
+            margin: 10px;
+            font-size: 15px;
+            text-align: center;
+            /* font-size: 10px; */
+        }
+
     .typograpy2 {
         font-size: 35px;
         width: 300px;
@@ -374,15 +387,18 @@
         gap: 20px;
         flex-wrap: wrap;
     }
-        .slider-img {
-            display: flex;
-            justify-content: center;
-            gap: 200px;
-            margin-top: 30px;
-        }
-.content h3 {
-    width: 100px;
-}
+
+    .slider-img {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        margin-top: 30px;
+    }
+
+    .content h3 {
+        width: 100px;
+    }
+
     .typograpy2 {
         font-size: 45px;
         width: 300px;
@@ -390,10 +406,10 @@
 
 
 
-    .picture-icon2 {
-        width: 500px;
-        padding: 20px;
-    }
+        .picture-icon2 {
+            width: 450px;
+            padding: 20px;
+        }
 
 
 
