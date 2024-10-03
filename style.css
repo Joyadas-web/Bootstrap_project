@@ -91,12 +91,13 @@
 }
 
 .content h3 {
-    width: 199px;
+    width: 130px;
 }
 
 .span-1 h3 {
     margin: 10px;
     font-size: 24px;
+   text-align: center;
 }
 
 .span-1 p {
@@ -332,7 +333,56 @@
 }
 
 @media only screen and (max-width:600px) {
+    .silder_content h1 {
+        font-size: 30px;
+        width: 300px;
+        font-family: "poppins";
+    }
 
+    .silder_content p {
+        font-size: 16px;
+        width: 200px;
+        font-family: "poppins";
+    }
+
+    .d-flex {
+        display: flex !important;
+
+    }
+
+    .card-headerp {
+        width: 300px;
+    }
+
+    .typograpy-header {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .picture-icon2 {
+        width: 350px;
+        padding: 20px;
+    }
+
+    .typograpy2 {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .slider {
+        display: flex !important;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+        .slider-img {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+            margin-top: 30px;
+        }
+.content h3 {
+    width: 100px;
+}
     .typograpy2 {
         font-size: 45px;
         width: 300px;
@@ -370,35 +420,27 @@
         height: 700px;
     }
 
-    .slider-img {
-        display: flex;
-        justify-content: center;
-        /* flex-wrap: wrap; */
-        margin-top: 30px;
-        width: 200px;
-    }
 
-   
 
-    
 
-    .slider-img2 {
+
+    /* .slider-img2 {
         margin-left: -80px;
         width: 30px;
-    }
+    } */
 
-    .pic-icon {
+    /* .pic-icon {
         margin-top: 30px;
         display: flex;
         width: 100px;
         margin-left: 5px;
-    }
+    } */
 
     .card-img3 {
         display: flex;
         border: 1px solid rgb(255, 255, 255);
         width: 100%;
-        height: 400px;
+        height: 450px;
         border-radius: 1px;
 
         text-align: left;
@@ -406,5 +448,11 @@
         background-color: #289BDE;
         flex-wrap: nowrap;
         flex-direction: column;
+    }
+
+    .typograpy {
+        width: 300px;
+        font-size: 45px;
+        margin-top: 30px;
     }
 }
